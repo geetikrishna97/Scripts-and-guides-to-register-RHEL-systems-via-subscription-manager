@@ -1,4 +1,4 @@
-#### Scripts-and-guides-to-register-RHEL-systems-via-subscription-manager
+## Scripts-and-guides-to-register-RHEL-systems-via-subscription-manager
 Go to settings of Redhat system
 
 Registration server- Redhat
@@ -10,7 +10,7 @@ Registration Details-
 Fill the username,password,organization.(This is for the system which is SCA enabled by the organization)  , 
 For no cost use Red Hat Developer No-Cost Subscription which is free for individual developers.
 
-#### Fixing "This system is not registered with an entitlement server. You can use subscription-manager to register." issue
+## Fixing "This system is not registered with an entitlement server. You can use subscription-manager to register." issue
 
 $ yum install git
 
@@ -54,7 +54,7 @@ or
 Attach to cloud or virtual machines and run the above mentioned commands(1-4) again.
 
 
-##### Fixing 'No Enabled Repositories' in /etc/yum/repos.d and /etc/distro/repos.d in SCA enabled on system.
+## Fixing 'No Enabled Repositories' in /etc/yum/repos.d and /etc/distro/repos.d in SCA enabled on system.
 
 SCA Is Provided by the Organization (Red Hat Customer Account)
 
@@ -65,7 +65,7 @@ How to Check If Your Organization Has SCA Enabled-
 Ask Red hat account administrator or IT team.
 
 or
-[login to](https://access.redhat.com/)
+[login to Red Hat Account](https://access.redhat.com/)
 
 - Go to Subscriptions > Simple Content Access
   
