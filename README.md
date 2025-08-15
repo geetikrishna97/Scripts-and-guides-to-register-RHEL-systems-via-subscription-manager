@@ -19,14 +19,14 @@ Error: There are no enabled repos.
 
 #### Follow this steps to register on Redhat server and to use no cost subscription
 
-## Red Hat Developer No-Cost Subscription Setup
+#### Red Hat Developer No-Cost Subscription Setup
 - [Sign Up for a Free Red Hat Developer Account](https://sso.redhat.com/auth/realms/redhat-external/protocol/openid-connect/registrations?client_id=rhd-web&redirect_uri=https%3A%2F%2Fdevelopers.redhat.com&state=33005da4-0288-48f1-afe7-1c45a4a8e772&response_mode=fragment&response_type=code&scope=openid%20api.dxp_portals.developers&nonce=06cb6193-59f1-4f42-8c45-edcedee2d4bb&code_challenge=qD5uxGFZnYhvTEwiwGXIaAih4Tcpmwk6neOpw57kerM&code_challenge_method=S256)
 - Create an account using your email and password
-## 1 Register Your System
+#### 1.Register Your System
 Use subscription-manager to register your system:
 
 subscription-manager register
-## 2 Attach a subscription
+#### 2.Attach a subscription
 subscription-manager attach --auto
 
 or (to atatch manually)
@@ -34,13 +34,13 @@ or (to atatch manually)
 subscription-manager list --available (copy the pool id)
 
 subscription-manager attach --pool=<POOL_ID> (paste here)
-## 3 Verify subscription
+#### 3.Verify subscription
 subscription-manager list --consumed
-## 4 Test Installation
+#### 4.Test Installation
 Try installing a package to verify access.
 
 yum install git
-## If fails to access
+#### If fails to access
 Run below commands to enable essential repos
 
 subscription-manager repos --enable=rhel-8-baseos-rpms
@@ -70,15 +70,15 @@ or
 - Go to Subscriptions > Simple Content Access
   
 - Check if it’s Enabled for your organization
-##  Enable Repositories
+#### 1.Enable Repositories
 If you're using RHSM (Red Hat Subscription Manager):
 
 subscription-manager repos --enable=rhel-8-baseos-rpms
 
 subscription-manager repos --enable=rhel-8-appstream-rpms
-## Test installation
+#### 2.Test installation
 yum install git
-## If still getting error,unregister your system and again register.
+#### If still getting error,unregister your system and again register.
 subscription-manager unregister
 
 subscription-manager remove --all
