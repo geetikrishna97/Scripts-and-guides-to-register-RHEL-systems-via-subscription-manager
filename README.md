@@ -1,4 +1,4 @@
-## Scripts-and-guides-to-register-RHEL-systems-via-subscription-manager
+## Steps to register RHEL systems via subscription-manager
 Go to settings of Redhat system
 
 Registration server- Redhat
