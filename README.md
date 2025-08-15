@@ -1,9 +1,13 @@
 #### Scripts-and-guides-to-register-RHEL-systems-via-subscription-manager
 Go to settings of Redhat system
+
 Registration server- Redhat
+
 Registration type-Redhat Account
+
 Registration Details-
-Fill the username,password,organization.(This is for the system which is SCA enabled by the organization)
+
+Fill the username,password,organization.(This is for the system which is SCA enabled by the organization)  
 For no cost use Red Hat Developer No-Cost Subscription which is free for individual developers.
 
 #### Fixing "This system is not registered with an entitlement server. You can use subscription-manager to register." issue
